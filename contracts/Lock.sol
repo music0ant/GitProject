@@ -16,6 +16,7 @@ contract Lock {
     //7
     //左边在修改
     //我好像是右边
+    //我才是左边
     event Withdrawal(uint amount, uint when);
 
     constructor(uint _unlockTime) payable {
